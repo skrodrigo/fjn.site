@@ -4,22 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
+  <title>FJN - Faculdade Juazeiro do Norte</title>
+  <meta name="description" content="Site da FJN , Faculdade Juazeiro do Norte">
+  <meta name="keywords" content="FJN, site , graduações">
+  <meta name="author" content="Rodrigo">
+  <link rel="icon" href="./../assets/logo-test.png" type="image/x-icon">
+
 </head>
-<body class="min-h-screen">
+<body class="min-h-screen ">
 
-    <header class="bg-blue-950 h-36 relative">
+    <header class="bg-transparent relative overflow-hidden">
 
-        <div class="absolute flex justify-center items-center px-3 py-2 top-1 right-44 bg-sky-500 hover:bg-sky-400 z-20 rounded-md space-x-4">
-             <div class="flex items-center justify- space-x-2 cursor-pointer">
+        <div class="absolute bg-cover bg-center -z-20 ">
+            <img src="./../assets/bg-black.png" alt="" class="">
+        </div>
+
+        <div class="absolute flex justify-center items-center  top-1 right-44 bg-sky-500  z-20 rounded-md ">
+            
+             <div class="flex items-center justify- space-x-2 cursor-pointer hover:bg-sky-600 px-3 py-2 rounded-md ">
                 <img src="./../assets/library.svg" alt="" class="w-5">
                 <span class="font-semibold text-sm ">
                     Biblioteca Virtual
                 </span>
             </div>
-            <div>
-            |
+            <div class="flex-1">
+                <span>|</span>
             </div>
-            <div class="flex items-center justify-center space-x-2 cursor-pointer">
+            <div class="flex items-center justify-center space-x-2 cursor-pointer hover:bg-sky-600 px-3 py-2 rounded-md ">
                 <img src="./../assets/profile.svg" alt="" class="w-5">
                 <span class="font-semibold text-sm">
                     Confira Suas Notas
@@ -27,27 +38,27 @@
             </div>
         </div>
 
-        <div class="h-full w-full flex items-center justify-center space-x-4">
+        <div class="h-full flex items-center justify-between space-x-4 mx-44">
             <div>
-                <img src="./../assets/logo.png" alt="Logo da FJN" class="w-40">
+                <img src="./../assets/logo-test.png" alt="Logo da FJN" class="w-40">
             </div>
             <div>
                 <nav class="text-white font-semibold flex items-center justify-center">
                     <ul class="flex justify-center items-center space-x-5">
                         <li>
-                            <a href="/home" class="hover:bg-sky-500 py-2 px-3 rounded-md">HOME</a>
+                            <a href="/home" class="hover:bg-sky-600 py-2 px-3 rounded-md">HOME</a>
                         </li>
                         <li>
-                            <a href="/graduacoes" class="hover:bg-sky-500 py-2 px-3 rounded-md">GRADUAÇÕES</a>
+                            <a href="/graduacoes" class="hover:bg-sky-600 py-2 px-3 rounded-md">GRADUAÇÕES</a>
                         </li>
                         <li>
-                            <a href="/pos" class="hover:bg-sky-500 py-2 px-3 rounded-md">PÓS-GRADUAÇÕES</a>
+                            <a href="/pos" class="hover:bg-sky-600 py-2 px-3 rounded-md">PÓS-GRADUAÇÕES</a>
                         </li>
                         <li>
-                            <a href="/institucional" class="hover:bg-sky-500 py-2 px-3 rounded-md">INSTITUCIONAL</a>
+                            <a href="/institucional" class="hover:bg-sky-600 py-2 px-3 rounded-md">INSTITUCIONAL</a>
                         </li>
                         <li>
-                            <a href="/fale" class="hover:bg-sky-500 py-2 px-3 rounded-md">FALE CONOSCO</a>
+                            <a href="/fale" class="hover:bg-sky-600 py-2 px-3 rounded-md">FALE CONOSCO</a>
                         </li>
                         </ul>
                     </nav> 
@@ -57,6 +68,7 @@
     </header>
     
     <main>
+
         <section class="relative flex justify-between items-center mx-44 mt-1 mb-1">
 
             <div>
@@ -66,34 +78,43 @@
                 <button>
                 <img src="./../assets/search.svg" alt="" class="absolute w-5 top-[6px] right-3">
                 </button>
-                <input class="appearance-none border border-gray-700 rounded-full py-1 px-4  leading-tight focus:outline-none focus:bg-white focus:border-gray-500" type="text">
+                <input class="appearance-none border border-zinc-900 rounded-full py-1 px-4  leading-tight focus:outline-none focus:bg-white focus:border-gray-500" type="text">
             </div>
         </section>
-        <section class="bg-slate-300">
-            <div class="flex mx-40 justify-center items-center py-10">
-                <div>
-                    <img src="./../assets/foto-facul.png" alt="" class="w-[600px] border-4 border-white">
+
+        <section class="bg-transparent relative overflow-hidden">
+
+            <div class="absolute bg-cover bg-center -z-20 ">
+                <img src="./../assets/bg.jpg" alt="" class="">
+            </div>
+
+            <div class="flex  mx-40 justify-center items-center py-10">
+
+                <div class="flex flex-col justify-center items-center flex-1 space-y-10">
+                    <span class="text-center font-light text-5xl">
+                        Faltam Apenas <b>52 Dias</b> <br> Para o vestibular!
+                    </span>
+                    
+                    <div class="flex flex-row bg-zinc-950 text-white rounded-full py-3 px-7 space-x-2 cursor-pointer">
+                        <button>Veja Mais Informações</button>
+                        <img src="./../assets/arrow.svg" alt="" class="w-6">
+                    </div>
                 </div>
 
-                <div class="flex flex-col justify-center items-center flex-1 space-y-4">
-                <img src="./../assets/clock.svg" alt="" class="w-20">
-                <span class="text-center font-semibold text-2xl">
-                    FALTAM 52 DIAS <br>
-                    PARA O VESTIBULAR <br>
-                    2013.2
-                </span>
-                <button class="bg-blue-950 text-white rounded-full py-3 px-7">
-                    Tenha mais Informações
-                </button>
+                <div>
+                    <img src="./../assets/foto-faculdade.png" alt="" class="border-4 border-white">
                 </div>
+
             </div>
+
         </section>
-        <section class="bg-slate-300 ">
+
+        <section class="bg-zinc-200 ">
 
             <div class="flex flex-col py-10 space-y-10 mx-44">
 
-                <div class="flex items-start justify-start border-4 border-transparent border-b-sky-500">
-                    <h2 class="text-3xl mb-10 font-medium text-sky-500">
+                <div class="flex items-start justify-start border-4 border-transparent border-b-zinc-300">
+                    <h2 class="text-4xl mb-10 font-semibold text-sky-500">
                         ÚLTIMAS NOTÍCIAS
                     </h2>
                 </div>
@@ -152,15 +173,356 @@
             </div>
             
             <div class="flex justify-center items-center">
-                <button class="px-4 py-2 bg-sky-500 text-white rounded-full whitespace-nowrap">Veja Mais Notícias</button>
-
+                <button class="px-10 py-3 font-light text-xl bg-sky-500 text-white rounded-full ">Veja Mais Notícias</button>
             </div>
 
         </section>
+
+        <section class="bg-zinc-200 ">
+
+            <div class="flex flex-col py-10 space-y-10 mx-44">
+
+                <div class="flex items-start justify-start border-4 border-transparent border-b-zinc-300">
+                    <h2 class="text-4xl mb-10 font-semibold text-sky-500">
+                        UTILIDADES E SERVIÇOS
+                    </h2>
+                </div>
+
+                <div class="grid grid-cols-3 text-sky-500">
+                    <div class="flex space-x-2 justify-center items-center text-justify mx-5 mb-5">
+                        <img src="./../assets/napd.svg" alt="">
+                        <div>
+                            <h3 class="text-2xl font-semibold">
+                                NAPD                
+                            </h3>
+                            <span>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Quaerat et cum delectus. Nihil quam nesciunt, atque quibusdam
+                                tempora eveniet vitae quis magni necessitatibus voluptatum 
+                                voluptatibus corrupti harum ratione quaerat modi?         
+                            </span>
+                        </div>
+                    </div>
+                    <div class="flex space-x-2 justify-center items-center text-justify mx-5 mb-5">
+                        <img src="./../assets/nuep.svg" alt="">
+                        <div>
+                            <h3 class="text-2xl font-semibold">
+                                NUEP                
+                            </h3>
+                            <span>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Quaerat et cum delectus. Nihil quam nesciunt, atque quibusdam
+                                tempora eveniet vitae quis magni necessitatibus voluptatum 
+                                voluptatibus corrupti harum ratione quaerat modi?         
+                            </span>
+                        </div>
+                    </div>
+                    <div class="flex space-x-2 justify-center items-center text-justify mx-5 mb-5">
+                        <img src="./../assets/egresso.svg" alt="">
+                        <div>
+                            <h3 class="text-2xl font-semibold">
+                                EGRESSO                
+                            </h3>
+                            <span>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Quaerat et cum delectus. Nihil quam nesciunt, atque quibusdam
+                                tempora eveniet vitae quis magni necessitatibus voluptatum 
+                                voluptatibus corrupti harum ratione quaerat modi?         
+                            </span>
+                        </div>
+                    </div>
+                    <div class="flex space-x-2 justify-center items-center text-justify mx-5 mb-5">
+                        <img src="./../assets/ouvidoria.svg" alt="">
+                        <div>
+                            <h3 class="text-2xl font-semibold">
+                                OUVIDORIA                
+                            </h3>
+                            <span>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Quaerat et cum delectus. Nihil quam nesciunt, atque quibusdam
+                                tempora eveniet vitae quis magni necessitatibus voluptatum 
+                                voluptatibus corrupti harum ratione quaerat modi?         
+                            </span>
+                        </div>
+                    </div>
+                    <div class="flex space-x-2 justify-center items-center text-justify mx-5 mb-5">
+                        <img src="./../assets/relatorio.svg" alt="">
+                        <div>
+                            <h3 class="text-2xl font-semibold">
+                                RELATÓRIO DE CPA                
+                            </h3>
+                            <span>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Quaerat et cum delectus. Nihil quam nesciunt, atque quibusdam
+                                tempora eveniet vitae quis magni necessitatibus voluptatum 
+                                voluptatibus corrupti harum ratione quaerat modi?         
+                            </span>
+                        </div>
+                    </div>
+                    <div class="flex space-x-2 justify-center items-center text-justify mx-5 mb-5">
+                        <img src="./../assets/comite.svg" alt="">
+                        <div>
+                            <h3 class="text-2xl font-semibold">
+                                COMITÊ DE PESQUISA                
+                            </h3>
+                            <span>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Quaerat et cum delectus. Nihil quam nesciunt, atque quibusdam
+                                tempora eveniet vitae quis magni necessitatibus voluptatum 
+                                voluptatibus corrupti harum ratione quaerat modi?         
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="bg-transparent relative overflow-hidden">
+
+            <div class="absolute bg-cover bg-center -z-20 ">
+                <img src="./../assets/bg-black.png" alt="" class="">
+            </div>
+
+            <div class="flex flex-col py-10  mx-44">
+                <div class="flex flex-col justify-center items-center space-y-10">
+                    <h2 class="text-white font-bold text-4xl">
+                        Qual dos Cursos da Faculdade Juazeiro do Norte Você Está Procurando Informações?
+                    </h2>
+                    <div class="bg-white rounded-xl p-5 ">
+                        <div class="grid grid-cols-4 gap-5 ">
+                            <div>
+                                <div class="text-3xl">
+                                <h3>Cursos de Graduação em:</h3>         
+                                </div>
+                                <div class="mt-6 space-y-3">
+                                    <div class="flex justify-start items-center bg-sky-500 py-4 px-6 rounded-xl text-white font-semibold text-2xl ">
+                                        <span>Sistemas de Informação</span>
+                                    </div>
+                                    <div class="flex justify-between  items-center bg-zinc-400 py-4 px-6 rounded-xl text-white font-semibold text-2xl ">
+                                        <span>Ciências Contábeis</span>
+                                        <img src="./../assets/arrow-fill.svg" alt="" class="w-9">
+                                    </div>
+                                    <div class="flex justify-between  items-center bg-zinc-400 py-4 px-6 rounded-xl text-white font-semibold text-2xl ">
+                                        <span>Nutrição</span>
+                                        <img src="./../assets/arrow-fill.svg" alt="" class="w-9">
+                                    </div>
+                                    <div class="flex justify-between  items-center bg-zinc-400 py-4 px-6 rounded-xl text-white font-semibold text-2xl ">
+                                        <span>Farmácia</span>
+                                        <img src="./../assets/arrow-fill.svg" alt="" class="w-9">
+                                    </div>
+                                    <div class="flex justify-between  items-center bg-zinc-400 py-4 px-6 rounded-xl text-white font-semibold text-2xl ">
+                                        <span>Enfermagem</span>
+                                        <img src="./../assets/arrow-fill.svg" alt="" class="w-9">
+                                    </div>        
+                                </div>  
+                            </div>
+                            <div class="col-span-3 space-y-5 justify-between flex flex-col">
+                                <div class="flex items-start justify-start border-4 border-transparent border-b-sky-500">
+                                    <h2 class="text-4xl mb-5 font-normal text-sky-500">
+                                        Sistemas de Informação
+                                    </h2>
+                                </div>
+                                <div class="bg-sky-500 text-white items-center justify-center rounded-md px-3">
+                                    <span>
+                                        PROFISSIONAL            
+                                    </span>
+                                </div>
+                                <p class="text-3xl font-extralight text-zinc-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Iste et impedit tenetur. Quas quam, quos saepe ratione laudantium dicta,
+                                     dolorum iste maiores exercitationem sunt dolorem inventore expedita nisi? 
+                                     Vel, explicabo.
+                                </p>
+                                <div class="bg-sky-500 text-white items-center justify-center rounded-md px-3">
+                                    <span>
+                                        COORDENAÇÃO            
+                                    </span>
+                                </div>   
+                                <div class="flex w-full justify-between items-center">
+                                    <div class="flex flex-col">
+                                        <span class="text-3xl font-extralight text-zinc-400">Contato:sistemas@fjn.edu.br</span>
+                                        <span class="text-3xl font-extralight text-zinc-400">Coordenador: Prof. MSc Sidney de Lima Pinto</span>
+                                    </div>
+                                    <img src="./../assets/more.svg" alt="" class="w-10">
+                                </div>
+                            </div>             
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="bg-zinc-200 ">
+            
+            <div class="flex flex-col py-10 space-y-10 mx-44">
+
+                <div class="flex items-start justify-between border-4 border-transparent border-b-zinc-300">
+                    <h2 class="text-4xl mb-10 font-semibold text-sky-500">
+                        GALERIA DE FOTOS
+                    </h2>          
+                    <div class="flex justify-center items-center bg-sky-500 py-3 px-4 rounded-lg space-x-2">
+                        <div>
+                            <img src="./../assets/escolha.svg" alt="" class="w-6">
+                        </div>
+                        <div>
+                            <span class="font-semibold">
+                                Mostrar fotos de:
+                            </span>
+                        </div>
+                        <div class="flex space-x-3 justify-center items-center">
+                            <span>Enfermagem</span>
+                        </div>
+                    </div>          
+                </div>
+
+                <div class="flex  space-x-28">
+                    <div class="flex flex-col space-y-4 justify-center items-center">
+                        <span class="font-bold text-xl text-sky-800">06.08.2013</span>
+                        <img src="./../assets/evento-enfer.png" alt="" class="w-56"> 
+                        <span class="text-lg text-zinc-600">IV Semana de Enfermagem</span>
+                    </div>
+                    <div class="flex flex-col space-y-4 justify-center items-center">
+                        <span class="font-bold text-xl text-sky-800">06.08.2013</span>
+                        <img src="./../assets/evento-enfer.png" alt="" class="w-56"> 
+                        <span class="text-lg text-zinc-600">IV Semana de Enfermagem</span>
+                    </div>
+                    <div class="flex flex-col space-y-4 justify-center items-center">
+                        <span class="font-bold text-xl text-sky-800">06.08.2013</span>
+                        <img src="./../assets/evento-enfer.png" alt="" class="w-56"> 
+                        <span class="text-lg text-zinc-600">IV Semana de Enfermagem</span>
+                    </div>
+                    <div class="flex flex-col space-y-4 justify-center items-center">
+                        <span class="font-bold text-xl text-sky-800">06.08.2013</span>
+                        <img src="./../assets/evento-enfer.png" alt="" class="w-56"> 
+                        <span class="text-lg text-zinc-600">IV Semana de Enfermagem</span>
+                    </div>
+                    <div class="flex flex-col space-y-4 justify-center items-center">
+                        <span class="font-bold text-xl text-sky-800">06.08.2013</span>
+                        <img src="./../assets/evento-enfer.png" alt="" class="w-56"> 
+                        <span class="text-lg text-zinc-600">IV Semana de Enfermagem</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <section class="bg-zinc-200 ">
+            
+            <div class="flex flex-col py-10 space-y-10 mx-44">
+
+                <div class="flex items-start justify-between border-4 border-transparent border-b-zinc-300">
+                    <h2 class="text-4xl mb-10 font-semibold text-sky-500">
+                        REDES SOCIAS    
+                    </h2>                    
+                </div>
+                
+                <div class="flex justify-center items-center space-x-8">
+                    <img src="./../assets/Facebook.svg" alt="">
+                    <img src="./../assets/Instagram.svg" alt="">
+                    <img src="./../assets/LinkedIn.svg" alt="">
+                    <img src="./../assets/Gmail.svg" alt="">
+                </div>
+            </div>       
+
+        </section>
+        
     </main>
     
-    <footer>
+    <footer class="bg-transparent relative overflow-hidden">
 
+        <div class="absolute bg-cover bg-center -z-20 ">
+            <img src="./../assets/bg-black.png" alt="" class="">
+        </div>
+
+        <div class="grid grid-cols-4 text-white mx-40">
+            <div class="flex flex-col space-y-3 mt-3 mb-3 items-center">
+                <h3 class="font-semibold text-2xl">
+                    Graduações
+                </h3>
+                <ul class="font-normal space-y-1 flex flex-col justify-center items-center">
+                    <li>
+                        <a href="">Sistemas de Informação</a>
+                    </li>
+                    <li>
+                        <a href="">Ciências Contábeis</a>
+                    </li>
+                    <li>
+                        <a href="">Nutrição</a>
+                    </li>
+                    <li>
+                        <a href="">Farmácia</a>
+                    </li>
+                    <li>
+                        <a href="">Enfermagem</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex flex-col space-y-3 mt-3 mb-3 items-center">
+                <h3 class="font-semibold text-2xl">
+                    Manuais
+                </h3>
+                <ul class="font-normal space-y-1 flex flex-col justify-center items-center">
+                    <li>
+                        <a href="">Manual TOTVS</a>
+                    </li>
+                    <li>
+                        <a href="">Manual do TCC</a>
+                    </li>
+                    <li>
+                        <a href="">Manual do Aluno</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex flex-col space-y-3 mt-3 mb-3 items-center">
+                <h3 class="font-semibold text-2xl">
+                    Sites e Blogs
+                </h3>
+                <ul class="font-normal space-y-1 flex flex-col justify-center items-center">
+                    <li>
+                        <a href="">Blog - A cor do Riso</a>
+                    </li>
+                    <li>
+                        <a href="">Jornada de Farmácia</a>
+                    </li>
+                    <li>
+                        <a href="">Iniciação Cientifica</a>
+                    </li>
+                    <li>
+                        <a href="">Blog Qualitividade</a>
+                    </li>
+                    <li>
+                        <a href="">Portal de Pós-Graduação</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex flex-col space-y-3 mt-3 mb-3 items-center">
+                <h3 class="font-semibold text-2xl">
+                    Contatos
+                </h3>
+                <ul class="font-normal space-y-1 flex flex-col justify-center items-center">
+                    <li>
+                        <a href="">Rua São Francisco,1224</a>
+                    </li>
+                    <li>
+                        <a href="">Bairro - São Miguel</a>
+                    </li>
+                    <li>
+                        <a href="">Juazeiro do Norte - Ceará</a>
+                    </li>
+                    <div class="flex items-center justify-center space-x-1">
+                        <img src="./../assets/Location.svg" alt="" class="w-8">
+                        <span class="underline">Veja no Google Maps</span>
+                    </div>
+                </ul>
+            </div>
+        </div>
+
+        <div class="bg-sky-500 flex items-center justify-center ">
+            <span class="text-black ">Desenvolvido Por Rodrigo Carvalho, Gabriel Marques © 2024</span>
+        </div>
     </footer>
 </body>
 </html>
